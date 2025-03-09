@@ -1,5 +1,4 @@
 📂 Project: Customer Retention Analysis
-
 This project analyzes customer churn and retention patterns using the Telco Customer Churn Dataset. The dataset contains customer demographics, subscription details, and churn status, helping identify key factors influencing customer retention.
 
 📊 Dataset Overview
@@ -15,9 +14,7 @@ Target Variable: Churn (Yes/No) indicating whether a customer left the service
 
 🛠 Tools Used
 SQL: Data cleaning, churn analysis, ranking, and segmentation
-
 Power BI: Dashboard visualization for customer churn trends
-
 Excel: Data preprocessing and forecasting
 
 📈 Business Insights
