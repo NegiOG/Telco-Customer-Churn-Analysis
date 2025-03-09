@@ -48,9 +48,9 @@ paperlessbilling = IF(paperlessbilling = 'Yes', 1, 0);
 
 UPDATE telco_customers
 SET Churn = CASE
-				WHEN churn = 'Yes' THEN 1
+		WHEN churn = 'Yes' THEN 1
                 ELSE 0
-			END;
+		END;
 
 SELECT * FROM telco_customers;
 
@@ -127,8 +127,8 @@ GROUP BY Contract;
 
 SELECT contract,
 	COUNT(*) AS total_customer,
-    SUM(churn) AS churned_customer,
-    SUM(Churn)*100/COUNT(*)  AS CRR
+   	SUM(churn) AS churned_customer,
+    	SUM(Churn)*100/COUNT(*)  AS CRR
     
 FROM telco_customers
 GROUP BY contract;
@@ -147,7 +147,7 @@ GROUP BY Tenure_terms;
 -- customers by Rank --
 
 SELECT *,
-		RANK() OVER (ORDER BY TotalCharges DESC) AS ranking
+	RANK() OVER (ORDER BY TotalCharges DESC) AS ranking
  FROM telco_customers;
  
  -- Customers who are more likly to churn --
