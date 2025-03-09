@@ -8,10 +8,11 @@ Features: 21 columns including Customer ID, Tenure, Monthly Charges, Contract Ty
 Target Variable: Churn (Yes/No) indicating whether a customer left the service
 
 📌 Key Analysis Performed
-✅ Customer Segmentation: Categorized customers based on spending, tenure, and contract type.
-✅ Churn Prediction: Identified high-risk customers likely to churn.
-✅ Retention Insights: Analysed how services (e.g., Internet, Streaming, Phone) impact retention.
-✅ Financial Impact: Ranked customers by total spending to prioritize retention efforts.
+
+Customer Segmentation: Categorized customers based on spending, tenure, and contract type.
+Churn Prediction: Identified high-risk customers likely to churn.
+Retention Insights: Analysed how services (e.g., Internet, Streaming, Phone) impact retention.
+Financial Impact: Ranked customers by total spending to prioritize retention efforts.
 
 🛠 Tools Used
 SQL: Data cleaning, churn analysis, ranking, and segmentation
