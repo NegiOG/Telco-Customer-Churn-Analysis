@@ -13,9 +13,11 @@ Target Variable: Churn (Yes/No) indicating whether a customer left the service
 ✅ Retention Insights: Analyzed how services (e.g., Internet, Streaming, Phone) impact retention.
 ✅ Financial Impact: Ranked customers by total spending to prioritize retention efforts.
 
-🛠 Technologies Used
+🛠 Tools Used
 SQL: Data cleaning, churn analysis, ranking, and segmentation
+
 Power BI: Dashboard visualization for customer churn trends
+
 Excel: Data preprocessing and forecasting
 
 📈 Business Insights
